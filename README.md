@@ -25,7 +25,7 @@ A comprehensive digital E-Challan system developed using XAMPP server for both p
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/e-challan-website.git
+    git clone https://github.com/niti0309/e-challan-website.git
     ```
 
 2. **Set up XAMPP server**: 
