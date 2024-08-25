@@ -45,4 +45,3 @@ A comprehensive digital E-Challan system developed using XAMPP server for both p
 
 - **Police Dashboard**: Allows officers to log in and manage traffic violations and fines.
 - **Driver Portal**: Allows drivers to log in, view their fines, and make payments securely.
-
