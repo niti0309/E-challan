@@ -1,0 +1,272 @@
+body {
+    background-color: #f5efec;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;/*Center horizontally */
+    align-items: center; /*Center vertically */
+    height: 100vh; /*Full height of the viewport */
+}
+
+/* Add this CSS to handle dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:  #704f3a;
+}
+
+.dropdown-content a:hover {
+    background-color: #402d21;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Add this to make the dropdown button look different */
+.dropbtn {
+    color: #555;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto; /* Added to center horizontally */
+}
+
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #704f3a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #402d21;
+}
+
+.register-container {
+    text-align: center; /* Center the register link */
+    margin-top: 20px; 
+}
+
+.register-link {
+    text-decoration: none;
+    color: #704f3a;
+}
+
+.register-link:hover {
+    color: #402d21;
+}
+/* Ensure navbar is positioned at the top */
+
+/* Ensure navbar is positioned at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 15 px;
+    background-color: #fbf7f3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px; /* Add space for the fixed navbar */
+    padding-bottom: 50px; /* Add space for the footer */
+    text-align: center;
+    margin: 0 auto; /* Added to center horizontally */
+
+
+
+} 
+.copyright {
+    text-align: center;
+}
+
+/* Adjust styles for account link */
+.account-nav {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.account-link {
+    color: #555;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #704f3a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #402d21;
+}
+
+
+.logo {
+    margin-left: 20px;
+}
+
+.menu-icon {
+    display: none; /* Hide menu icon by default */
+}
+
+@media screen and (max-width: 768px) {
+    .buttons {
+        display: none; /* Hide buttons on smaller screens */
+    }
+
+    .menu-icon {
+        display: block; /* Show menu icon on smaller screens */
+    }
+}
+
+/* ------TABLE------- */
+/* CSS for the table */
+.table-section {
+    margin-top: 2900px; /* Adjust this margin to push the table down below the navbar */
+    justify-content: center; /* Center horizontally */
+    margin-left: 20%;
+}
+
+.table-section table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table-section table td, 
+.table-section table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-section table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-section table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* ------------- */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fbf7f3;
+    padding: 10px 0; /* Add padding as needed */
+}
+
+footer p {
+    color: #555;
+    margin: 0;
+}
+
+/* Add this CSS for the print button */
+
+.printButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.printButton:hover {
+    background-color: #0056b3;
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+}
